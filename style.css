@@ -1,0 +1,406 @@
+body {
+    margin-left: 10%;
+    margin-right: 3%;
+    align-items: center;
+    background-color: #FEFDFD;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'poppins';
+    src: url('poppins/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: 'poppins2';
+    src: url('poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: CormorantGaramond;
+    src: url('poppins/CormorantGaramond-Medium.ttf');
+}
+.shape{
+    height: 500px;
+    width: 400px;
+    background-color: #474747;
+    top: 0;
+    right: 0;
+    margin-top: -150px;
+    border-radius: 40px;
+    z-index: -1;
+    rotate: 55deg;
+    position: absolute;
+}
+
+.top-catagories {
+    display: flex;
+}
+
+
+.top-buttons {
+    font-family: CormorantGaramond;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 1%;
+    gap: 15%;
+    font-size: 150%;  
+    button {
+        cursor: pointer;
+        border: none;
+
+        background-color: transparent;
+        font-size: 70%;
+    }
+}
+
+.top-icons {
+    cursor: pointer;
+    display: flex;
+    margin-top: 2.5%;
+    margin-left: 40%;
+    gap: 10%;
+    color: white;
+
+}
+#basket{
+
+    margin-right: 3%;
+    width: 30px; 
+    height: 40px;
+}
+#profile{
+    margin-top: 0;
+    width: 30px; 
+     height: 40px;
+     color: white;
+
+}
+#search{
+    width: 30px; 
+    height: 40px;
+}
+.second-container {
+    margin-top: 13%;
+}
+
+
+#elevate{
+    font-size: larger;
+    line-height: 5px;
+}
+
+h2 {
+    line-height: 120%;
+    letter-spacing: 3px;
+    font-size: 400%;
+    padding-top: 0px;
+}
+.home-with-border{
+    border: rgb(102, 96, 96) dashed 2px;
+}
+
+.buttons2{
+    padding-top: 0px;
+    display: flex;
+    gap: 30%;
+}
+.startnow {
+    cursor: pointer;
+    padding: 1.3%;
+    width: 10%;
+    font-size: medium;
+    border-radius: 50px;
+    background-color: #474747;
+    color: white;
+    font-family: 'poppins';
+   border-width: 0cap;
+}
+.startnow:hover{
+    cursor: pointer;
+    padding: 1.3%;
+    width: 10%;
+    border-radius: 50px;
+    background-color: gray;
+    color: black;
+    border: 1px ;
+    border-color: #474747;
+}
+
+.watchvideo{
+    cursor: pointer;
+    margin-left: 1%;
+    padding-top: -1%;
+    width: 13%;
+    font-size: medium;
+    border-radius: 20%;
+    font-family: 'poppins';
+    border-width: 0cap;
+    text-align: center;
+    background-color: transparent;
+    display: inline-block;
+}
+.play{
+    display: inline;
+    margin-left: 10px;
+    font-family: 'poppins';
+    font-weight: bold;
+}
+#youtube{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(201, 194, 194);
+    margin-left: 20px;
+}
+#para{
+
+    display: inline-block;
+}
+
+.stat{
+    display: flex;
+    gap: 4%;
+    margin-top: 5%;
+}
+.text1{
+    padding-top: 3%;
+    font-family: 'poppins2';
+
+    font-size: x-large;
+    font-weight: 100%;
+    line-height: 0;
+}
+.undertext1{
+    line-height: 0;
+    margin-top: px;
+
+    font-family: 'poppins2';
+}
+.image1{
+    display: flex;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 10%;
+    height:80%; 
+    border-radius: 20px;
+}
+.image1 img{
+    border:#474747;
+    border-radius: 30px;
+    right: 10;
+}
+
+.text2{
+    height: 300px;
+    padding-top: 3%;
+    display: flex;
+    gap: 10%;
+    font-size: xx-large;
+    font-weight: 100%;
+    line-height: 0;
+}
+.third-container{
+    margin-top: 10%;
+    gap: 14%;
+    display: flex;
+    font-size: x-large;
+}
+
+#first{
+    font-family: 'ikea';
+    font-weight: 200px;
+}
+
+
+
+.best-seller-list{
+
+    margin-top: 10%;
+    margin-bottom: 4%;
+    display: flex;
+    gap: 87%;
+}
+.iconnp{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    font-size: 35px;
+    align-items: center;
+
+   
+}
+.left-caret{
+    color: #A2A2A1;
+}
+.objects{
+    border-radius: 7%;
+    cursor: pointer;
+    display: flex;
+    gap: 13%;
+}
+
+
+.discription{
+    display: flex;
+    gap: 20%;
+}
+.restyle-space{
+    margin-top: 20%;
+    margin-left: 25%;
+    margin-bottom: 4%;
+    font-size: 350%;
+    line-height: 0;
+
+}
+.fifth-container{
+    margin-top: 10%;
+    display: inline-block;
+}
+.right-side{
+  margin-left: 23%;
+}
+.poffer{
+    font-family: CormorantGaramond;
+    font-size: 110%;
+    padding-top: 10%;
+}
+h5{
+    font-size: 400%;
+    margin-top: 0;
+    margin-bottom: 7%;
+}
+.shop-now{
+    cursor: pointer;
+    padding: 1.3%;
+    width: 30%;
+    height: 13%;
+    font-size: medium;
+    border-radius: 50px;
+    background-color: white;
+    color: #474747;
+    font-family: 'poppins';
+    border: 1px solid;
+    margin-top: 8%;
+}
+.shop-now:hover{
+    cursor: pointer;
+    padding: 1.3%;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    border: 1px ;
+    border-color: #474747;
+}
+
+.left-side img{
+    border-radius: 7%;
+
+}
+
+.para2{
+    margin-top: 0;
+    font-size: medium;
+    line-height: 2;
+}
+#customized{
+    margin-left: 40%;
+    font-size: medium;
+}
+.fifth-container{
+    display: flex;
+}
+.sixth-container{
+    display: flex;
+    margin-top: 15%;
+}
+.sixth-container img{
+    border-radius: 7%;
+    margin-left: 25%;
+}
+.seventh-container{
+ margin-top: 3%;
+}
+.items{
+    cursor: pointer;
+    margin-top: 12%;
+    display: flex;
+    gap:18%;
+}
+.eighth-container{
+    margin-top: 10%;
+}
+/* #encourage{
+    margin-top: 20%;
+    margin-left: 15%;
+    margin-bottom: 4%;
+    font-size: 400%;
+    line-height: 0;
+
+} */
+.testimonial{
+
+    margin-top: 12%;
+    display: flex;
+}
+.testimonial-img{
+    margin-left: 6%;
+}
+.testimonial-img img{ 
+    border-radius: 7%;
+    width:100%;
+ 
+}
+.testimonial-txt{
+    line-height: 2;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.peter{
+    gap: 30px;
+    display: flex;
+    font-size: 110%;
+    margin-bottom: 5%;
+}
+.peter img{
+    border-radius: 10px;
+    height: 100%;
+}
+.next-option{
+    margin-top: 20%;
+    display: flex;
+}
+#arrow{
+margin-left: 100%;
+margin-top: 1%;
+cursor: pointer;
+}
+.ninth-container{
+    margin-top: 12%;
+    display: flex;
+    gap: 16%;
+    
+}
+
+.list{
+    font-size: large;
+    list-style-type: none;
+    align-items: start;
+    line-height: 3;
+    margin-bottom: 10%;
+
+}
+
+.Copyright{
+    margin-top: 10%;
+    display: flex;
+    gap: 70%;
+}
+h4{
+    font-size: large;
+
+}
+
+#allrights{
+    margin-left: 2%;
+}
